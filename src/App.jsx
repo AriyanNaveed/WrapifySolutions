@@ -10,7 +10,7 @@ const App = () => {
         src="/gradient.png"
         alt="gradient background"
       />
-      <div className="h-0 w-[40rem] absolute top-[20%] right-[-5%] shadow-[0_0_900px_30px_#e99b63] -rotate-45 -z-10"></div>
+      <div className="h-0 w-xl absolute top-[20%] right-[-5%] shadow-[0_0_900px_20px_#e99b63] -rotate-45 -z-10"></div>
       <Navbar />
       <Hero />
     </main>

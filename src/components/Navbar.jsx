@@ -65,13 +65,13 @@ const Navbar = () => {
           Contact
         </a>
       </nav>
-      <button
-        onClick={toggleMobileMenu}
-        className="hidden md:block bg-[#a7a7a7] text-black py-2 px-4 rounded-full border-none font-medium transition-all duration-500 hover:bg-white cursor-pointer z-50"
-      >
+      <button className="hidden md:block bg-[#a7a7a7] text-black py-2 px-4 rounded-full border-none font-medium transition-all duration-500 hover:bg-white cursor-pointer z-50">
         Get in touch
       </button>
-      <button className="md:hidden p-2 text-3xl text-white z-50">
+      <button
+        onClick={toggleMobileMenu}
+        className="md:hidden p-2 text-3xl text-white z-50"
+      >
         <i class="bx bx-menu"></i>
       </button>
       <div
